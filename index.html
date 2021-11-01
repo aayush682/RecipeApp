@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find your Recipe for Ingredients</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>MyRecipeHouse</h1>
+    </div>
+    <div class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h2 class="title">Find Recipe Matching Your Given Ingredients </h2>
+                <blockquote>A Recipe has no Soul. You, as the cook, must bring soul to the recipe<br>
+                    <cite>~Thomas Keller</cite>
+                </blockquote>
+
+                <div class="meal-search-box">
+                    <input type="text" class="search-control" placeholder="Enter your Ingredient" id="search-input">
+                    <button type="submit" class="search-btn btn" id="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="meal-result">
+                <h2 class="title">Your Search Results:</h2>
+                <div id="meal">
+                    <div class="meal-item">
+                        <div class="meal-img">
+                            <img src="./brooke-lark-4AS6y6UH70s-unsplash.jpg" alt="food">
+                        </div>
+                        <div class="meal-name">
+                            <h3>Mix Salad</h3>
+                            <a href="#" class="recipe-btn">Get Your Recipe</a>
+                        </div>
+                    </div>
+                    <div class="meal-item">
+                        <div class="meal-img">
+                            <img src="./anna-pelzer-IGfIGP5ONV0-unsplash.jpg" alt="food">
+                        </div>
+                        <div class="meal-name">
+                            <h3>Mix Salad</h3>
+                            <a href="#" class="recipe-btn">Get Your Recipe</a>
+                        </div>
+                    </div>
+                    <div class="meal-item">
+                        <div class="meal-img">
+                            <img src="./davies-designs-studio-NhZUvE0NZTQ-unsplash.jpg" alt="food">
+                        </div>
+                        <div class="meal-name">
+                            <h3>Mix Salad</h3>
+                            <a href="#" class="recipe-btn">Get Your Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="meal-details">
+                <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="meal-details-content">
+                    <h2 class="recipe-title">Meals Name Here</h2>
+                    <p class="recipe-category">Category Name</p>
+                    <div class="recipe-instruct">
+                        <h3>Instructions:</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore incidunt quas similique, minima, nobis commodi delectus debitis eveniet tempora reiciendis optio dolorum doloribus alias doloremque sint sed magnam voluptate libero.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, ullam commodi eaque corrupti numquam ducimus ex, neque obcaecati dolor beatae molestiae impedit possimus minus itaque harum autem, illo ut dolores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quis aperiam vitae asperiores, veniam totam! Optio corporis eaque fuga quia ipsa voluptatibus nemo amet obcaecati repellat laboriosam? Dolorum, provident voluptate!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis officia officiis quae animi facilis nesciunt ex molestiae cupiditate, enim, soluta, nisi iure ab reiciendis adipisci excepturi modi veniam labore nam laudantium numquam aspernatur aliquid eaque eos. Pariatur nobis animi quam voluptate possimus? Quae atque cumque ipsam minus, totam aliquid similique corrupti quo? Voluptatem temporibus neque architecto delectus at. Repudiandae nulla voluptas vero velit doloremque ipsum deleniti tempore corrupti accusamus sunt, culpa qui dolore pariatur aut, praesentium ab sed neque ad, obcaecati corporis! Nulla ea officia consequuntur ipsum. Rerum aliquam assumenda libero, nobis ipsum sequi tempora nihil commodi? Eaque, consequatur velit.
+                        </p>
+                    </div>
+                    <div class="recipe-meal-img">
+                        <img src="./anna-pelzer-IGfIGP5ONV0-unsplash.jpg" width="50%" alt="">
+                    </div>
+                    <div class="recipe-link">
+                        <a href="#" target="_blank">Watch Video</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
